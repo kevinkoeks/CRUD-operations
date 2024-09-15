@@ -2,7 +2,8 @@
 
 require_once "database.php";
 
-$db = new Database();
+// Maakt een object/instantie van class Database
+$db = new Database(); 
 
 
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
@@ -11,6 +12,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $email = $_POST["email"];
     $id = $_POST["id"];
 
+    // Checkt welke formulier ingevuld was en daarna de juist functie oproepen
     if (isset($_POST["create"])) {
         $db->insertCreate($name, $age, $email);
     } else if (isset($_POST["read"])) {
