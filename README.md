@@ -12,7 +12,7 @@ This repository provides practical examples of how to implement CRUD (Create, Re
 
 ## About the Project
 
-This project serves as a learning resource for developers who are new to PHP and want to understand how to perform database operations and manage user sessions effectively using OOP principles.
+This project serves as a learning resource for developers/students who are new to PHP and want to understand how to perform database operations and manage user sessions effectively using OOP principles.
 
 ## Features
 
